@@ -14,7 +14,7 @@ def handle(client):
     while True:
         msg = client.recv(1024).decode()
         if len(str(msg)) != 0:
-            if msg == "|quit|":
+            if msg == "QUIT":
                 break
             else:
                 # Sostituisci la x con il * per darle valore di moltiplicazione

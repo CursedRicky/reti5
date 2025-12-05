@@ -1,6 +1,6 @@
 import socket
 
-port = 17710
+port = 8844
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Indirizzo 0.0.0.0 per auto assegnazione dell'ip del server

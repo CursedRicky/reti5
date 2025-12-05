@@ -1,7 +1,7 @@
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(('127.0.0.1', 17710))
+client.connect(('127.0.0.1', 8844))
 
 client.send(input("Inserire operazione:\n").encode("utf-8"))
 
